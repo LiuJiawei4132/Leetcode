@@ -4,7 +4,7 @@
 + 欢迎大家指正 :) 
 # 已解题目
 ## 按分类
-+ 链表
++ [链表](https://github.com/LiuJiawei4132/Leetcode/tree/master/Java/LinkedList)
 + 数组
 + 堆栈
 + 队列
