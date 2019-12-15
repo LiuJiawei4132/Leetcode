@@ -27,11 +27,9 @@ class Solution {
                 String num = c + "";
                 while (i+1 < s.length() && s.charAt(i+1) >= '0' && s.charAt(i+1) <= '9')
                     num = num + s.charAt(++i);
+
                 NestedInteger node = new NestedInteger(Integer.valueOf(num));
-                if (stack.isEmpty())
-                    stack.push(node);
-                else
-                    stack.peek().add(node);
+                stack.peek().add(node);
             }
             if (c == ']')
                 result = stack.pop();
